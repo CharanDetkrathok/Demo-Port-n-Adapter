@@ -1,0 +1,15 @@
+demo:
+  port: ":3000"
+
+sql-db:
+  driver-name: "mysql"
+  username: "root"
+  password: "#demo#MySQL"
+  hostname: "127.0.0.1:3306"
+  # hostname: "mysql-demo:3306"
+  dbname: "demoMySQL"
+
+redis-cache:
+  address: "127.0.0.1:6379"
+  password: "#demo#port#n#adapter#"
+  db-num: 0
